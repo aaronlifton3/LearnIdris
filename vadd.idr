@@ -8,7 +8,7 @@ using (xs : List a)
       There : Elem x xs -> Elem x (y :: xs)
       
 isElem : (x : Nat) -> (xs : List Nat) -> Maybe (Elem x xs)
-isElem x [] = ?xs_rhs_1
+isElem x [] = Nothing
 isElem x (y :: xs) with (decEq x y)
   isElem x (x :: xs) | (Yes refl) = Just Here
   isElem x (y :: xs) | (No contra) = Just (There !(isElem x xs))
