@@ -1,6 +1,6 @@
 # Primary course
 
-## What are Haskell, GHC, and Cabal?
+## What is Idris?
 
 Idris is a general-purpose pure functional programming language with dependent types. The type system is similar to the one used by Agda.
 
