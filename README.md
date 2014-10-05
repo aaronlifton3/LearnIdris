@@ -13,11 +13,12 @@ The name Idris goes back to the character of the singing dragon in the 70's UK k
 ## Getting started
 
 ### Hello World
-`module Main
+```idris
+module Main
 
 main : IO ()
 main = putStrLn "Hello, World!"
-`
+```
 
 ## Development Environment
 
