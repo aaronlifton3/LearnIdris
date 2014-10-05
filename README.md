@@ -20,6 +20,11 @@ main : IO ()
 main = putStrLn "Hello, World!"
 ```
 
+### Examples & Tutorials
+
+* [Official tutorial](http://eb.host.cs.st-andrews.ac.uk/writings/idris-tutorial.pdf)
+* [Official examples](https://github.com/idris-lang/idris-tutorial/tree/master/examples)
+
 ## Development Environment
 
 ### Emacs
